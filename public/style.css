@@ -1,0 +1,138 @@
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 58%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #113d3d;
+    background-image: linear-gradient(225deg, #113d3d 0%, #5938a2 50%, #1881d1 100%);
+}
+html, body {
+    color: rgb(80, 78, 78);
+    overflow: hidden;
+    height: 100%;
+    text-align: center;
+}
+
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    font-size: small;
+}
+
+#inner{
+    width: 70%;
+}
+
+#url-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#paste-url, .base-url, #unique-name{
+    height: 1.5rem;
+    font-size: smaller;
+}
+
+#paste-url{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 85%;
+}
+
+.desc{
+    margin-top :2px;
+    color: rgb(255, 255, 255);
+}
+.base-url{
+    display: inline;
+    padding: 5px;
+    background-color: #f63545;
+    color: white;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid rgb(204, 203, 203);
+    border-right: 0;
+    width: 35%;
+}
+
+.unique-input{
+    display: inline;
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    border: 1px solid rgb(221, 221, 221);
+    width: 50%;
+}
+.form-control{
+    text-align: center;
+}
+
+button{
+    margin-top: 10px;
+    background-color: rgb(5, 187, 20);
+    padding: 5px;
+    outline: none;
+    cursor: pointer;
+    color: white
+}
+
+#confirmationShow {
+    display: flex;
+    justify-content: center;
+}
+
+#res_link{
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: small;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(5, 5, 5);
+    border: 1px solid goldenrod;
+}
+
+footer a{
+    color: white; }
+a:hover {
+    color: rgb(49, 111, 226); }
+
+footer, header {
+  text-align: start;
+  background-color: #070708;
+  color: white;
+  width: 100vw;
+  position: fixed;
+}
+
+header {
+  padding: 5px;
+  height: 2rem;
+  top: 0;
+}
+
+footer{
+  padding: 2.5px;
+  height: 1.35rem;
+  font-size: x-small;
+  bottom: 0;
+}
+
+/* Media Queries */
+@media screen and (max-width: 500px){
+    #url-form, #confirmationShow{
+        font-size: small;
+    }
+    #paste-url{
+        margin-top: 10px;
+    }
+}
