@@ -56,12 +56,12 @@ html, body {
 .base-url{
     display: inline;
     padding: 5px;
-    background-color: #f63545;
-    color: white;
+    background-color: #fa153b;
+    color: rgb(255, 255, 255);
     border-radius: 5px 0 0 5px;
     border: 1px solid rgb(204, 203, 203);
     border-right: 0;
-    width: 35%;
+    width: 47%;
 }
 
 .unique-input{
@@ -77,7 +77,7 @@ html, body {
 }
 
 button{
-    margin-top: 10px;
+    margin-top: 10px; 
     background-color: rgb(5, 187, 20);
     padding: 5px;
     outline: none;
@@ -116,14 +116,15 @@ footer, header {
 
 header {
   padding: 5px;
-  height: 2rem;
+  height: 2.3rem;
   top: 0;
+  font-size: larger;
 }
 
 footer{
   padding: 2.5px;
-  height: 1.35rem;
-  font-size: x-small;
+  height: 1.5rem;
+  font-size: small;
   bottom: 0;
 }
 
