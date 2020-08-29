@@ -32,7 +32,7 @@ const createShortLink = async (req, res) => {
             return res.json({
                 message : 'success',
                 ok : true,
-                shortUrl: shortUrl
+                shortUrl: url.shortUrl
             });
         }
     } catch (error) {
