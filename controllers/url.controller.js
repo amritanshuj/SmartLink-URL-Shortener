@@ -21,6 +21,7 @@ const createShortLink = async (req, res) => {
         }
         else {
             const shortUrl = baseUrl + '/' + unique_name;
+            console.log('*******: ',shortUrl);
             url = new Url({
                 originalUrl,
                 shortUrl,
@@ -32,7 +33,7 @@ const createShortLink = async (req, res) => {
             return res.json({
                 message : 'success',
                 ok : true,
-                shortUrl: url.shortUrl
+                shortUrl: shortUrl
             });
         }
     } catch (error) {
