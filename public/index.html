@@ -26,7 +26,7 @@
             id="paste-url" 
             placeholder="Paste original URL here">
             
-            <div><input disabled class="base-url" value="smartlk.herokuapp.com"><input required class="unique-input" id="unique-name" 
+            <div><input disabled class="base-url" value=""><input required class="unique-input" id="unique-name" 
              type="text" placeholder="unique name"></div>
             <div id='status'><button class="btn btn-success btn-sm">Shorten URL now!</button></div>
             <div id="confirmationShow"></div>
@@ -46,7 +46,7 @@
 
     <script>
       const domain = window.location.host;
-    //   document.querySelector('.base-url').value = domain + '/';
+      document.querySelector('.base-url').value = domain + '/';
     </script>
     <script src="main.js"></script>
 </html>
