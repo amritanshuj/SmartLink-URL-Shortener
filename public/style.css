@@ -131,8 +131,8 @@ footer{
 
 /* Media Queries */
 @media screen and (max-width: 500px){
-    #url-form, #confirmationShow{
-        font-size: x-small;
+    #url-form, #confirmationShow, #res_link{
+        font-size: small;
     }
     #paste-url{
         width: 90%;
@@ -149,5 +149,9 @@ footer{
 @media screen and (min-width: 800px){
     #full-url{
         width: 40vw;
+    }
+    #inner{
+        margin-top: 10px;
+        width: 60%;
     }
 }
