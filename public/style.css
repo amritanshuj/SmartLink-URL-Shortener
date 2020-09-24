@@ -132,13 +132,17 @@ footer{
 /* Media Queries */
 @media screen and (max-width: 500px){
     #url-form, #confirmationShow{
-        font-size: small;
+        font-size: x-small;
     }
     #paste-url{
+        width: 90%;
         margin-top: 10px;
     }
     #toast{
         bottom: 10px;
+    }
+    #inner{
+        width: 80%;
     }
 }
 
