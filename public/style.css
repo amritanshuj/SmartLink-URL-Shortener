@@ -53,6 +53,11 @@ html, body {
     margin-top :2px;
     color: rgb(255, 255, 255);
 }
+
+#full-url{
+    width: 40vw;
+}
+
 .base-url{
     display: inline;
     padding: 5px;
@@ -135,5 +140,8 @@ footer{
     }
     #paste-url{
         margin-top: 10px;
+    }
+    #toast{
+        bottom: 10px;
     }
 }
