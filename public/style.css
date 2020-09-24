@@ -54,10 +54,6 @@ html, body {
     color: rgb(255, 255, 255);
 }
 
-#full-url{
-    width: 40vw;
-}
-
 .base-url{
     display: inline;
     padding: 5px;
@@ -143,5 +139,11 @@ footer{
     }
     #toast{
         bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 800px){
+    #full-url{
+        width: 40vw;
     }
 }
